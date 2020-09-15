@@ -10,6 +10,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class SearchDropdownTest extends TestCase
 {
+    use RefreshDatabase;
+
     /** @test */
     public function main_page_contains_search_dropdown_livewire_component()
     {
