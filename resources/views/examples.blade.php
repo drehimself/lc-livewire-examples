@@ -115,5 +115,15 @@
         </ul>
     </div>
 
+    <hr>
+
+    <div class="my-8">
+        <h2 class="text-lg font-semibold mt-4">Polling Example</h2>
+
+        <div class="mt-4">
+            <livewire:poll-example />
+        </div>
+    </div>
+
 
 @endsection
