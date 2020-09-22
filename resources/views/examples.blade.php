@@ -110,7 +110,10 @@
 
         <ul class="list-disc mt-4">
             @foreach ($posts as $post)
-            <li><a href="{{ route('post.show', $post) }}" class="text-blue-600">{{ $post->title }}</a></li>
+                <li>
+                    <a href="{{ route('post.show', $post) }}" class="text-blue-600">{{ $post->title }}</a>
+                    <a href="{{ route('post.edit', $post) }}" class="text-blue-600"> (Edit)</a>
+                </li>
             @endforeach
         </ul>
     </div>
